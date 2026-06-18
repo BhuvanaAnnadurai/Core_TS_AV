@@ -44,44 +44,90 @@
 // Non Primitive Data Types - object, array, tuple, enum, any, void, never
 // 1. Object: Represents a collection of key-value pairs. It can be used to store and organize data.
 
-const student = {
+// const student = {
 
-    name: "Anbu",
-    age: 6,
-    DOB: '16 April'
-}
-
-
-console.log(student)
-console.log(student.age)
+//     name: "Anbu",
+//     age: 6,
+//     DOB: '16 April'
+// }
 
 
+// console.log(student)
+// console.log(student.age)
 
 
-// 2. Array - One dimentional Array
+
+
+// // 2. Array - One dimentional Array
 
 var nums:number[] = [10, 40, 56, 90]
 var fruits:string[] = ["Apple", 'Orange', 'Banana']
 
-var Obj:any[] = ["Apple", 'Orange', false, undefined, null, 89]
+var abc:any[] = ["Apple", 'Orange', false, undefined, null, 89]
 
 //3. Function
 
-function greet():String{
+// function greet():String{
 
-   return "Hello"
+//    return "Hello"
+
+// }
+
+// function student1():string{
+
+//     return "name"
+
+// }
+
+// function addition(a:number, b:number):number{
+
+//     return a*b;
+// }
+
+// console.log(addition(10,20))
+
+// Tuples - A Tuple is a special type of array where the number of elements and their types are fixed
+
+// var product1:[number, string, boolean] = [101, "iPhone", true]
+// var product1:[number, string, boolean] = [101, "iPhone", true]
+// var product1:[number, string, boolean] = [101, "iPhone", true]
+// var product1:[number, string, boolean] = [101, "iPhone", true]
+// var product1:[number, string, boolean] = [101, "iPhone", true]
+// var product1:[number, string, boolean] = [101, "iPhone", true]
+
+// Enum - An enum (Shor for enumeration), Is a way to define a set of named constants
+
+// enum Direction {
+//     up, down, right
+// }
+
+// var move: Direction = Direction.up;
+// var move: Direction = Direction.right;
+// console.log(move)
+
+class person{
+
+
 
 }
 
-function student1():string{
+// Interface - An Interface defines the structure (Shape) of an Object. It specifies what properties and methodss an object should have 
 
-    return "name"
+
+// interface person{
+//     name: string,
+//     age: number,
+//     det: any
+// }
+
+
+const Person ={
+    name:"Person1",
+    age : 30,
+    det: true,
+
+
 
 }
 
-function addition(a:number, b:number):number{
 
-    return a*b;
-}
-
-console.log(addition(10,20))
